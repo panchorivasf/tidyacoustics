@@ -53,8 +53,8 @@
 #' }
 #'
 #' @importFrom foreach foreach %dopar%
-#' @importFrom doParallel registerDoParallel stopImplicitCluster detectCores
-#' @importFrom lubridate as.POSIXct
+#' @importFrom parallel detectCores
+#' @importFrom doParallel registerDoParallel stopImplicitCluster
 #'
 #' @seealso
 #' \code{\link[base]{list.dirs}} for directory listing,
